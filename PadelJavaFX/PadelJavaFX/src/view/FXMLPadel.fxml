@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="586.0" prefWidth="869.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="padeljavafx.FXMLPadelController">
+   <children>
+      <Button fx:id="btniniciar" layoutX="159.0" layoutY="316.0" mnemonicParsing="false" onAction="#iniciarsesion" prefHeight="82.0" prefWidth="169.0" text="Iniciar Sesión">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="btnregistrarse" layoutX="531.0" layoutY="316.0" mnemonicParsing="false" onAction="#registrarse" prefHeight="82.0" prefWidth="169.0" text="Registrarse">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="276.0" prefHeight="17.0" prefWidth="169.0" text="¿Ya eres usuario?">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="531.0" layoutY="276.0" prefHeight="17.0" prefWidth="169.0" text="¿No eres usuario?">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="tituloclub" layoutX="150.0" layoutY="110.0" prefHeight="89.0" prefWidth="575.0" text="Label">
+         <font>
+            <Font name="Calibri Bold Italic" size="43.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

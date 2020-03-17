@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="padeljavafx.FXMLRegistrarseController">
+   <children>
+      <Label layoutX="291.0" layoutY="181.0" text="Nombre *" />
+      <TextField layoutX="291.0" layoutY="213.0" prefHeight="25.0" prefWidth="267.0" />
+      <Label layoutX="291.0" layoutY="69.0" prefHeight="66.0" prefWidth="356.0" text="Registrarse">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="680.0" layoutY="181.0" text="Apellidos *" />
+      <TextField layoutX="680.0" layoutY="213.0" prefHeight="25.0" prefWidth="267.0" />
+      <Label layoutX="48.0" layoutY="672.0" text="* Campo obligario" />
+      <Label layoutX="291.0" layoutY="282.0" text="Teléfono de contacto *" />
+      <TextField layoutX="291.0" layoutY="316.0" prefHeight="25.0" prefWidth="267.0" />
+      <Label layoutX="291.0" layoutY="379.0" text="Usuario *" />
+      <TextField layoutX="291.0" layoutY="415.0" prefHeight="25.0" prefWidth="267.0" promptText="No puede contener espacios" />
+      <Label layoutX="680.0" layoutY="379.0" text="Contraseña *" />
+      <TextField layoutX="680.0" layoutY="415.0" prefHeight="25.0" prefWidth="267.0" promptText="Al menos 6 carácteres alfanuméricos" />
+      <Label layoutX="290.0" layoutY="480.0" prefHeight="17.0" prefWidth="109.0" text="Tarjeta de crédito" />
+      <TextField layoutX="291.0" layoutY="515.0" prefHeight="25.0" prefWidth="267.0" />
+      <Label layoutX="680.0" layoutY="480.0" text="SVC" />
+      <TextField layoutX="680.0" layoutY="515.0" prefHeight="25.0" prefWidth="267.0" />
+      <Separator layoutX="290.0" layoutY="363.0" prefHeight="0.0" prefWidth="661.0" />
+      <Separator layoutX="290.0" layoutY="467.0" prefHeight="0.0" prefWidth="661.0" />
+      <Button fx:id="btnContinuarRegistro" layoutX="290.0" layoutY="603.0" mnemonicParsing="false" onAction="#continuarRegistro" prefHeight="25.0" prefWidth="661.0" text="Continuar" />
+      <Label layoutX="511.0" layoutY="664.0" text="¿Ya eres usuario? " textAlignment="CENTER" underline="true" />
+      <Button layoutX="628.0" layoutY="660.0" mnemonicParsing="false" onAction="#iniciarsesion" text="Inicia Sesión" />
+   </children>
+</AnchorPane>
